@@ -1,10 +1,12 @@
 <template>
 	<view class="about">
 		<view class="content">
+
 			<view class="qrcode">
 				<image src="https://img.cdn.aliyun.dcloud.net.cn/guide/uniapp/app_download.png" @longtap="save"></image>
 				<text class="tip">扫码体验uni-app</text>
 			</view>
+			
 			<view class="desc">
 				<text class="code">uni-app</text>
 				是一个使用 <text class="code">Vue.js</text> 开发跨平台应用的前端框架。
